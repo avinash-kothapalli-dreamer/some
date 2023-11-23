@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-const url ="https://avinashtech34.onrender.com"
+import { url } from "./logincomponent";
 export default class Reset extends Component{
     constructor(props){
         super(props);
