@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-export const url = process.env.BACKEND_URL
+export const url = process.env.REACT_APP_BACKEND_URL
 
-
+console.log(url)
 
 
 export default class Login extends Component {
