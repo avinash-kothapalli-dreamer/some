@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 
- export const url = process.env.BACKEND_URL
+export const url = process.env.BACKEND_URL
+
+
+
+
 export default class Login extends Component {
   constructor(props){
     super(props);
